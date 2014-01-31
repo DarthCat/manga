@@ -37,6 +37,8 @@ def get_books(name):
         sys.exit()
 
 
+
+
 reg = r'"(.*)",.*,.*'
 pattern = re.compile(reg)
 def get_pages(book):
